@@ -1,15 +1,11 @@
 {
-  "name": "astro-template-claude35sonnet",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^4.14.2"
+  "name": "create-astro-custom-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Custom Astro template with modular layout",
+  "keywords": ["astro-template"],
+  "repository": {
+    "type": "git",
+    "url": "https://gitea.dallas.languagetechnology.org/bryan_vold/astro-generic-template"
   }
 }
