@@ -17,7 +17,7 @@ To use this template for your new Astro project, follow these steps:
 2. Open your terminal and run the following command:
 
    ```bash
-   npm create astro@latest -- --template https://gitea.dallas.languagetechnology.org/bryan_vold/astro-generic-template
+   npm create astro@latest -- --template bvold/astro-generic-modullar-template
    ```
 
 3. Follow the prompts to set up your new project:
