@@ -17,11 +17,11 @@ To use this template for your new Astro project, follow these steps:
 2. Open your terminal and run the following command:
 
    ```bash
-   npm create astro@latest -- --template bvold/astro-generic-modullar-template
+   npm create astro@latest my-astro-project -- --template bvold/astro-generic-modullar-template
    ```
 
 3. Follow the prompts to set up your new project:
-* Enter a name for your project
+* Enter a name for your project if you didn't enter on initial command
 * Choose whether to install dependencies
 * Select your preferred package manager (npm, yarn, or pnpm)
 
@@ -29,7 +29,7 @@ To use this template for your new Astro project, follow these steps:
 4. Once the setup is complete, navigate to your new project directory:
 
     ```bash
-    cd your-project-name
+    cd my-astro-project
     ```
 
 5. Start the development server:
