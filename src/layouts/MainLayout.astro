@@ -1,0 +1,65 @@
+---
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Your Site Title</title>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="area-chooser">Area Chooser</div>
+      <header>Header</header>
+      <nav>Left Navigation</nav>
+      <main>
+        <slot />
+      </main>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>
+
+<style>
+  .layout {
+    display: grid;
+    grid-template-areas:
+      "chooser header header"
+      "nav main main"
+      "footer footer footer";
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+
+  .area-chooser {
+    grid-area: chooser;
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+
+  header {
+    grid-area: header;
+    background-color: #e0e0e0;
+    padding: 1rem;
+  }
+
+  nav {
+    grid-area: nav;
+    background-color: #d0d0d0;
+    padding: 1rem;
+  }
+
+  main {
+    grid-area: main;
+    padding: 1rem;
+  }
+
+  footer {
+    grid-area: footer;
+    background-color: #c0c0c0;
+    padding: 1rem;
+  }
+</style>
