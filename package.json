@@ -1,11 +1,21 @@
 {
   "name": "create-astro-custom-template",
+  "type": "module",
   "version": "1.0.0",
-  "private": true,
   "description": "Custom Astro template with modular layout",
   "keywords": ["astro-template"],
   "repository": {
     "type": "git",
-    "url": "https://gitea.dallas.languagetechnology.org/bryan_vold/astro-generic-template"
+    "url": "https://github.com/bvold/astro-generic-modular-template"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.14.2"
   }
 }
